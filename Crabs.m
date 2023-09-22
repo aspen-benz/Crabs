@@ -3,7 +3,7 @@ function Crabs ()
 % hunts for a very clever and powerful crab.
 % Draw the game map and initialize map dimensions.
 [mapHeight , mapWidth] = drawMap( "BGImage.png" );
-% Initialize captain location, heading and size
+% Initialize captain location, heading and width
 xCapt = 1000;
 yCapt = 500;
 thetaCapt = -pi/2;
