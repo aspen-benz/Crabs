@@ -5,12 +5,12 @@ Function: getCapt: number -> matrix
 Purpose: This function generates a matrix representaion of the Captain character at the origin.
 Other functions that it uses: none
 
-Function: drawCapt: 
+Function: drawCapt: matrix -> graphics 
 Purpose: This function draws the captain at a given position (xCapt, yCapt).
 Other functions that it uses: It uses getCapt to draw the captain and getTranslation in order to move the captain to a given location.
 
-Function: drawLine: 
-Purpose: This function draws a line between two 2D points named p and q in homogeneous coordinates.
+Function: drawLine: coordinates -> plot
+Purpose: This function draws a line between two 2D points named p and q in homogeneous coordinates for the x and y coordinates.
 Other functions that it uses: none
 
 Function: drawMap: image -> background
