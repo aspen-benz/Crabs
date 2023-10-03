@@ -19,4 +19,8 @@ Other functions that it uses: none
 
 Function: getTranslation: matrix -> location 
 Purpose: This function moves the Captain to a given location by using a matrix.
-Other functions that it uses: none
+Other functions that it uses: drawCapt
+
+Function: getRotation: matrix -> rotation
+Purpose: This function rotates the captain by an angle by using a matrix and -pi divided by a number.
+Other functions that it uses: drawCapt
